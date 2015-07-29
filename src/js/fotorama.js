@@ -379,7 +379,7 @@ jQuery.Fotorama = function ($fotorama, opts) {
   function setStageShaftMinmaxAndSnap () {
     stageShaftTouchTail.min = o_loop ? -Infinity : -getPosByIndex(size - 1, measures.w, opts.margin, repositionIndex);
     stageShaftTouchTail.max = o_loop ? Infinity : -getPosByIndex(0, measures.w, opts.margin, repositionIndex);
-    stageShaftTouchTail.snap = measures.w + opts.margin;
+    stageShaftTouchTail.snap = 0;
   }
 
   function setNavShaftMinMax () {
