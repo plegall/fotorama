@@ -137,7 +137,7 @@ jQuery.Fotorama = function ($fotorama, opts) {
   }
 
   function allowKey (key) {
-    return o_keyboard[key] || that.fullScreen;
+    return o_keyboard[key];
   }
 
   function bindGlobalEvents (FLAG) {
